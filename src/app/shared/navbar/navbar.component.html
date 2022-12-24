@@ -1,0 +1,34 @@
+<style type="text/tailwindcss">
+  @layer utilities {
+    .nav{
+      @apply relative ml-10 text-white font-mono font-bold tracking-[1px] hover:text-yellow-400
+    }
+    .nav::after{
+      @apply content-[''] bg-yellow-400 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+    }
+    .nav:hover::after{
+      @apply w-[100%]
+    }
+  }
+</style>
+<div class="navbar bg-secondary">
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+    </div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal px-1">
+        <li><a class="nav"> heyyyyy</a></li>
+        <li tabindex="0">
+          <a>
+            Seasons
+            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+          </a>
+          <ul class="p-2 bg-base-100">
+            <li><a routerLink="/season2022" routerLinkActive="">Season 2022</a></li>
+            <li><a routerLink="/season2020"routerLinkActive="">Season 2020</a></li>
+          </ul>
+        </li>
+        <li><a>Item 3</a></li>
+      </ul>
+    </div>
+  </div>
