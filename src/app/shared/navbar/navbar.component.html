@@ -1,34 +1,34 @@
-<style type="text/tailwindcss">
-  @layer utilities {
-    .nav{
-      @apply relative ml-10 text-white font-mono font-bold tracking-[1px] hover:text-yellow-400
-    }
-    .nav::after{
-      @apply content-[''] bg-yellow-400 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
-    }
-    .nav:hover::after{
-      @apply w-[100%]
-    }
-  }
-</style>
-<div class="navbar bg-secondary">
+<div class="navbar bg-secondary sticky top-0 shadow-xl h-24">
     <div class="flex-1">
-      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-    </div>
+      <a routerLink="" routerLinkActive="" class="normal-case text-xl m-5 text-white"><img src="https://i.ibb.co/d7LykwQ/logo-t4k.png" alt="logo-t4k" style="width:75px;"></a></div>
+      <a routerLink="about" routerLinkActive="" class="normal-case text-white text-3xl hover:text-transparent hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 bg-clip-text absolute left-32 top-4 h-16 w-64">Team 3990</a>
+    
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
-        <li><a class="nav"> heyyyyy</a></li>
+        <a href="" class=" link-underline link-underline-yellow m-5 text-white">About</a>
         <li tabindex="0">
-          <a>
-            Seasons
-            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-          </a>
-          <ul class="p-2 bg-base-100">
-            <li><a routerLink="/season2022" routerLinkActive="">Season 2022</a></li>
-            <li><a routerLink="/season2020"routerLinkActive="">Season 2020</a></li>
+          <a class="text-white ">Seasons</a>
+          <ul class=" bg-secondary h-128 w-48 ">
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2022" routerLinkActive="">Season 2022</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2020"routerLinkActive="">Season 2020</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2019"routerLinkActive="">Season 2019</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2018"routerLinkActive="">Season 2018</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2017"routerLinkActive="">Season 2017</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2016"routerLinkActive="">Season 2016</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2015"routerLinkActive="">Season 2015</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2014"routerLinkActive="">Season 2014</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2013"routerLinkActive="">Season 2013</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2012"routerLinkActive="">Season 2012</a>
+
           </ul>
         </li>
-        <li><a>Item 3</a></li>
+        <a routerLink="history" routerLinkActive="" class="text-white link-underline link-underline-yellow m-5">Our history</a>
+        <a routerLink="sponsor" routerLinkActive="" class="text-white link-underline link-underline-yellow m-5">Sponsor</a>
+        <a routerLink="contact" routerLinkActive="" class="text-white link-underline link-underline-yellow m-5">Contact us</a>
+        <a class="text-white link-underline link-underline-yellow m-5">Français</a>
+
+
+
       </ul>
     </div>
   </div>

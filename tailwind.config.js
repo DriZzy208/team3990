@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'bg1': 'url("https://i.ibb.co/NpkK7Cn/bg-1.jpg")',
+        'ima2': 'url("https://i.ibb.co/ScPqCLk/52029743025-9f23b0ff45-o.jpg")',
+      }
     },
   },
   plugins: [require("daisyui")],

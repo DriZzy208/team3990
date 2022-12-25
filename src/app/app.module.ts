@@ -7,6 +7,10 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { Season2022Component } from './pages/season2022/season2022.component';
 import { Season2020Component } from './pages/season2020/season2020.component';
 import { HomeComponent } from './pages/home/home.component';
+import { AboutComponent } from './pages/about/about.component';
+import { HistoryComponent } from './pages/history/history.component';
+import { SponsorComponent } from './pages/sponsor/sponsor.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { HomeComponent } from './pages/home/home.component';
     NavbarComponent,
     Season2022Component,
     Season2020Component,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    HistoryComponent,
+    SponsorComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
