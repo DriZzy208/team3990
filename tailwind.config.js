@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'bg1': 'url("https://i.ibb.co/NpkK7Cn/bg-1.jpg")',
-        'ima2': 'url("https://i.ibb.co/ScPqCLk/52029743025-9f23b0ff45-o.jpg")',
+        'ima2': 'url("https://www.team3990.com/wp-content/uploads/2017/08/21556923_10154616737675566_1187701955_o.jpg")',
+        'ima3': 'url("https://www.team3990.com/wp-content/uploads/2017/08/21556923_10154616737675566_1187701955_o.jpg")',
       }
     },
   },
