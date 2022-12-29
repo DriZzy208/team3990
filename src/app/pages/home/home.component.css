@@ -1,3 +1,6 @@
 .card{
     z-index: 500;
+    background-color: #fff;
+    overflow: hidden;
+      
 }
