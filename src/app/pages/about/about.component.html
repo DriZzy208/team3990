@@ -1,1 +1,106 @@
-<p>about works!</p>
+<app-navbar></app-navbar>
+
+<div class="p-12">
+    <h2 class="font-bold justify-center flex text-4xl">{{'aboutitle1'| translate}}</h2>
+    <a class="font-bold flex justify-center text-2xl">{{'aboutitle2'| translate}}</a>
+</div>
+  
+<div [@cardAnimation]="1">
+    <div class="card animate"> 
+        <div class="flex justify-center">
+            <div class="card w-96 m-12 bg-white">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title font-bold text-2xl">{{'about1'| translate}}</h2>
+                    <p>{{'aboutmission'| translate}}</p>
+                    <div class="card-actions">
+                        <button routerLink="/mission" routerLinkActive=""  class="btn btn-secondary w-48 text-white justify-center shadow-lg mt-36  hover:text-accent">{{'readmorebtn' | translate}}</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card w-96 m-12 bg-white">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title font-bold text-2xl">{{'about2'| translate}}</h2>
+                    <p>{{'aboutgoals'| translate}}</p>
+                    <div class="card-actions">
+                        <button routerLink="/goals" routerLinkActive=""  class="btn btn-secondary w-48 text-white justify-center shadow-lg  hover:text-accent">{{'readmorebtn' | translate}}</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card w-96 m-12 bg-white">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title font-bold text-2xl">{{'about3'| translate}}</h2>
+                    <p>{{'abouthistory'| translate}}</p>
+                    <div class="card-actions">
+                        <button routerLink="/history" routerLinkActive=""  class="btn btn-secondary w-48 text-white justify-center shadow-lg  hover:text-accent">{{'readmorebtn' | translate}}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="flex flex-col w-full border-opacity-50">
+    <div class="divider before:bg-black after:bg-black mx-96 font-bold text-2xl" >{{'c&s'| translate}}</div>
+</div>
+
+
+<div @fadeIn>
+    <div [@cardAnimation]="1">
+        <div class="card animate"> 
+            <div class="flex justify-center">
+                <div class="card card-compact m-12 w-96 bg-white">
+                    <figure><img src="https://i.ibb.co/RT7yKRL/notre-cause-300x163.png" alt="notre-cause-300x163" /></figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">{{'aboutcard1'| translate}}</h2>
+                      <p>{{'aboutcard1.2'| translate}}</p>
+                      <div class="card-actions justify-end">
+                        <button routerLink="/mission" routerLinkActive=""  class="btn btn-secondary w-48 text-white justify-center shadow-lg mt-2  hover:text-accent">{{'readmorebtn' | translate}}</button>
+                    </div>
+                    </div>
+                  </div>
+
+                <div class="card animate"> 
+                    <div class="flex justify-center">
+                        <div class="card card-compact m-12 w-96 bg-white ">
+                            <figure><img src="https://www.team3990.com/wp-content/uploads/2017/08/21556923_10154616737675566_1187701955_o.jpg" alt="Shoes" /></figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">{{'aboutcard2'| translate}}</h2>
+                              <p>{{'aboutcard2.2'| translate}}</p>
+                              <div class="card-actions justify-end">
+                                <button routerLink="/impact" routerLinkActive=""  class="btn btn-secondary w-48 text-white justify-center shadow-lg mt-2  hover:text-accent">{{'readmorebtn' | translate}}</button>
+                            </div>
+                            </div>
+                          </div>
+
+                          <div class="card animate"> 
+                            <div class="flex justify-center">
+                                <div class="card card-compact m-12 w-96 bg-white ">
+                                    <figure><img src="https://www.team3990.com/wp-content/uploads/2017/08/a-propos-de-first-300x163.jpg" alt="Shoes" /></figure>
+                                    <div class="card-body items-center text-center mt-24">
+                                      <h2 class="card-title">{{'aboutcard3'| translate}}</h2>
+                                      <p>{{'aboutcard3.2'| translate}}</p>
+                                      <div class="card-actions justify-end">
+                                        <button href="https://robotiquefirstquebec.org/" class="btn btn-secondary w-48 text-white justify-center shadow-lg mt-48  hover:text-accent">{{'readmorebtn' | translate}}</button>
+                                    </div>
+                                    </div>
+                                  </div>
+    
+                                  <div class="card"> 
+                                    <div class="flex justify-center">
+                                        <div class="card card-compact m-12 w-96 bg-white ">
+                                            <figure><img src="https://i.ibb.co/TK8rHrf/college-regina-assumpta-1-newsize.png" alt="college-regina-assumpta-1-newsize"  /></figure>
+                                            <div class="card-body items-center text-center mt-12">
+                                              <h2 class="card-title">{{'aboutcard4'| translate}}</h2>
+                                              <p>{{'aboutcard4.2'| translate}}</p>
+                                              <div class="card-actions justify-end">
+                                                <button routerLink="/mission" routerLinkActive=""  class="btn btn-secondary w-48 text-white justify-center shadow-lg mt-64  hover:text-accent">{{'readmorebtn' | translate}}</button>
+                                            </div>
+                                            </div>
+                                          </div>
+            </div>
+        </div>
+    </div>
+  </div>
+    

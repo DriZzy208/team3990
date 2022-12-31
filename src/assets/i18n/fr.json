@@ -12,5 +12,25 @@
     "homepage2": "Quels sont nos objectifs, notre mission?",
     "homepage3": "L’équipe de robotique, Team 3990 Tech for Kids, participe annuellement à la compétition de robotique FIRST, \nla FRC (First Robotics Competition) \n Au Québec, FIRST est l’acronyme de Favoriser l’Inspiration et la Reconnaissance des Sciences et de la Technologie. \n Aux États-Unis, FIRST signifie For Inspiration and Recognition of Science and Technology.",
     "homepage4": "Depuis 2012, les jeunes, accompagnés de mentors professionnels et universitaires, et chapeautés par monsieur \n Sylvain Gauvreau, enseignant de sciences et technologie, construisent un nouveau robot capable de relever \n les défis annuels de la FRC.",
-    "homepage5": "De plus, en dehors de la saison de compétition, l’équipe organise des activités et des ateliers de robotique pour \n les jeunes défavorisés et souffrant d’handicap physique de la région métropolitaine de Montréal, et assistent aux \n séances de formation en programmation, mathématique, ingénierie, électricité, pneumatique, gestion de projets et \n communications en plus de faire la promotion de la robotique comme outil favorisant la persévérance scolaire."
+    "homepage5": "De plus, en dehors de la saison de compétition, l’équipe organise des activités et des ateliers de robotique pour \n les jeunes défavorisés et souffrant d’handicap physique de la région métropolitaine de Montréal, et assistent aux \n séances de formation en programmation, mathématique, ingénierie, électricité, pneumatique, gestion de projets et \n communications en plus de faire la promotion de la robotique comme outil favorisant la persévérance scolaire.",
+    "about1": "Notre mission",
+    "about2": "Nos objectifs",
+    "about3": "Notre histoire",
+
+    "aboutcard1": "Notre Cause",
+    "aboutcard1.2": "Débrouillardise, entraide, confiance. Ce sont des valeurs que nous tentons de partager grâce à notre implication dans la communauté. En effet, les petites flammes que nous avons réussi à allumer dans les yeux des enfants lors des différents ateliers nous ont permis de réaliser que l’engagement communautaire et l’entraide sociale peuvent être bénéfiques autant pour la personne qui donne que celle qui reçoit.",
+    "aboutcard2": "Impacts",
+    "aboutcard2.2": "Tech for Kids, c’est plus de 400 enfants de la communauté montréalaise et ses environs qui ont touché de près à la science et à la technologie en participant à des ateliers de robotique. L’équipe est présentement associée à trois organismes communautaires : La Fondation du Dr. Julien, La Relance Jeunes et Familles et La Fondation Enfants en tête. Qu’ils soient défavorisés ou souffrant d’un handicap, l’équipe tient à leur montrer que tout est possible, qu’il ne faut pas se décourager, que tout le monde peut y arriver.",
+    "aboutcard3": "À propos de FIRST",
+    "aboutcard3.2": "FIRST est une organisation fondée à Manchester (New Hampshire, États-Unis) en 1989 par Dean Kamen, un entrepreneur américain soucieux de propager sa passion pour la science, l’ingénierie et la technologie auprès des jeunes du primaire et du secondaire, afin de les inciter à devenir les chefs de file de demain.",
+    "aboutcard4": "Notre Collège",
+    "aboutcard4.2": "Fondé en 1955 par la Congrégation de Notre-Dame, le collège Regina Assumpta est un établissement d’enseignement secondaire privé, mixte qui dispense une éducation de qualité à plus de 2 200 élèves.",
+    
+    "aboutitle1": "À propos de notre Équipe",
+    "aboutitle2": "Vous désirez en savoir plus sur notre mission, notre histoire et nos objectifs, consultez les articles suivants.",
+    "readmorebtn": "En savoir plus",
+    "aboutmission": "L’Équipe Team 3990: Tech for Kids est davantage qu’une équipe de robotique: elle est également un projet multidisciplinaire. Le projet de l’équipe s’articule autour de trois volets : communautaire, pédagogique et développement de soi.",
+    "aboutgoals": "Tech for Kids, c’est un programme de robotique multidisciplinaire axé autour de trois objectifs: la persévérance scolaire, une formation pédagogique axée sur les sciences et la technologie, et un environnement favorisant la croissance personnelle et intellectuelle de chaque élève.",
+    "abouthistory": "Depuis 2012, Tech for Kids rayonne partout au Québec, au Canada et sur la scène internationale. À sa première année d’existence, elle a gagné le prix international de la meilleure équipe recrue de la FRC lors du championnat mondial, à St-Louis, et est championne québécoise depuis 2012.",
+    "c&s": "Causes et Impacts"
   }

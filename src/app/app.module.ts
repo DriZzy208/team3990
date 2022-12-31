@@ -14,6 +14,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -34,6 +35,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

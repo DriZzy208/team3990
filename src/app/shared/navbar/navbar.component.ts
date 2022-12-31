@@ -15,20 +15,7 @@ export class NavbarComponent {
   switchLanguage(language: string) {
     this.translate.use(language);
   }
-  about!: string;
-  seasons!: string;
-  season!: string;
-  history!: string;
-  sponsors!: string;
-  contact!: string;
-  language!: string;
-  currentLang!: string;
-  homepage1!: string;
-  homepage2!: string;
-  homepage3!: string;
-  homepage4!: string;
-  title!: string;
-  
+
   public changeLanguage() {
     let currentLang = this.getCurrentLanguage()
     if (currentLang == 'en') {
