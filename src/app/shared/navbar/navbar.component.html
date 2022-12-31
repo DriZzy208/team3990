@@ -5,28 +5,27 @@
     
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
-        <a routerLink="/about" routerLinkActive="" class=" link-underline link-underline-yellow m-5 text-white">About</a>
+        <a routerLink="/about" routerLinkActive="" class=" link-underline link-underline-yellow m-5 text-white">{{ 'about'| translate}}</a>
         <li tabindex="0">
-          <a class="text-white ">Seasons</a>
+          <a class="text-white ">{{ 'seasons'| translate}}</a>
           <ul class=" bg-secondary h-128 w-48 ">
-            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2022" routerLinkActive="">Season 2022</a>
-            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2020"routerLinkActive="">Season 2020</a>
-            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2019"routerLinkActive="">Season 2019</a>
-            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2018"routerLinkActive="">Season 2018</a>
-            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2017"routerLinkActive="">Season 2017</a>
-            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2016"routerLinkActive="">Season 2016</a>
-            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2015"routerLinkActive="">Season 2015</a>
-            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2014"routerLinkActive="">Season 2014</a>
-            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2013"routerLinkActive="">Season 2013</a>
-            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2012"routerLinkActive="">Season 2012</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2022" routerLinkActive="">{{ 'season'| translate}} 2022</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2020"routerLinkActive="">{{ 'season'| translate}} 2020</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2019"routerLinkActive="">{{ 'season'| translate}} 2019</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2018"routerLinkActive="">{{ 'season'| translate}} 2018</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2017"routerLinkActive="">{{ 'season'| translate}} 2017</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2016"routerLinkActive="">{{ 'season'| translate}} 2016</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2015"routerLinkActive="">{{ 'season'| translate}} 2015</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2014"routerLinkActive="">{{ 'season'| translate}} 2014</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2013"routerLinkActive="">{{ 'season'| translate}} 2013</a>
+            <a class="text-white link-underline-yellow link-underline text-xl mx-10 my-3" routerLink="/season2012"routerLinkActive="">{{ 'season'| translate}} 2012</a>
 
           </ul>
         </li>
-        <a routerLink="/history" routerLinkActive="" class="text-white link-underline link-underline-yellow m-5">Our history</a>
-        <a routerLink="/sponsor" routerLinkActive="" class="text-white link-underline link-underline-yellow m-5">Sponsor</a>
-        <a routerLink="/contact" routerLinkActive="" class="text-white link-underline link-underline-yellow m-5">Contact us</a>
-        <a class="text-white link-underline link-underline-yellow m-5">Français</a>
-
+        <a routerLink="/history" routerLinkActive="" class="text-white link-underline link-underline-yellow m-5">{{ 'history'| translate}}</a>
+        <a routerLink="/sponsor" routerLinkActive="" class="text-white link-underline link-underline-yellow m-5">{{ 'sponsor'| translate}}</a>
+        <a routerLink="/contact" routerLinkActive="" class="text-white link-underline link-underline-yellow m-5">{{ 'contact'| translate}}</a>
+        <button (click)="changeLanguage()" class="text-white link-underline link-underline-yellow m-5">{{ 'language'| translate}}</button>
 
 
       </ul>
