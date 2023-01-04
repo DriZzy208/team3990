@@ -27,7 +27,9 @@ import { TranslateService } from '@ngx-translate/core';
     ]
 })
 export class AboutComponent {
-
+  openLink(link:string) {
+    window.open(link, '_blank');
+  }
   ngOnInit() {
     window.scrollTo(0, 0);
   }
