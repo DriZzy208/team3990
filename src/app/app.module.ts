@@ -15,6 +15,8 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './shared/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -30,6 +32,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     HistoryComponent,
     SponsorComponent,
     ContactComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,8 @@ export function HttpLoaderFactory(http: HttpClient) {
           useFactory: HttpLoaderFactory,
           deps: [HttpClient]
       }
-    })
+    }),
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
