@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';7
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { AboutComponent } from 'src/app/pages/about/about.component';
 
 @Component({
   selector: 'app-footer',
@@ -14,4 +15,6 @@ export class FooterComponent {
   faFaceBook = faFacebook;
   faYoutube = faYoutube;
   faTwitter = faTwitter;
+  about = new AboutComponent();
+  constructor() { }
 }
