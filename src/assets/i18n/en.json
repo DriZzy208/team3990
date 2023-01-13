@@ -12,7 +12,8 @@
     "homepage3": "The robotics team, Team 3990: Tech for Kids, annually participates in the FRC, FIRST Robotics Competition. \n In Quebec, FIRST stands for Fostering Inspiration and Recognition of Science and Technology. \n In the US, FIRST means For Inspiration and Recognition of Science and Technology.",
     "homepage4": "Since 2012, young people, together with professional and academic mentors headed by \n Mr. Sylvain Gauvreau, a science and technology teacher, build a new robot capable of meeting the challenges \n set by the FRC.",
     "homepage5": "Moreover, outside of the competition season, the team organizes activities and robotics workshops for \n disadvantaged youth with physical disabilities in the metropolitan region of Montreal. The team members \n attend training sessions for programming, engineering, electrics, pneumatics, project management, \n communications, in addition to the promotion of robotics as a tool to promote student retention.",
-    
+    "homepage12": "Tech for Kids is College Regina Assumpta’s multidisciplinary \n project centered around robotics, science and technology.",
+
     "aboutcard1": "Our cause",
     "aboutcard1.2": "Resourcefulness, support, confidence. These are values that we try to share through our community involvement. Indeed, small flames we managed to light in the eyes of children during our various workshops helped us  realize that community involvement and  support can be beneficial for both the giver and the receiver.",
     "aboutcard2": "Impacts",
@@ -27,7 +28,7 @@
     "about3": "Our history",
     "aboutitle1": "About us",
     "aboutitle2": "Want to know more about our mission, our history and our goals, see the following articles.",
-    "readmorebtn": "Read more",
+    "readmorebtn": "Read more \t",
     "aboutmission": "Team Team 3990: Tech for Kids is more than a robotics team: it is also a multidisciplinary project. The team’s project consists of three components: community, educational and self-development. First, the team encourages student retention through the holding",
     "aboutgoals": "Tech for Kids is a multidisciplinary robotics program focuses on three objectives: student retention, teacher training focused on science and technology, and an environment for personal and intellectual growth of each student.",
     "abouthistory": "Since 2012, Tech for Kids shines throughout Quebec, Canada and internationally. In her first year, she won the international award for best rookie team of the FRC at the World Championship in St. Louis, and Quebec champion since 2012.",
@@ -41,5 +42,9 @@
     "footer7": "Team 3990 ",
     "footer8": "A part of the community since 2012",
     "footer9": "© Team 3990: Tech for Kids 2023",
-    "footer10": "Made with ❤️ by Noril Werlen & Domenico Valentino"
+    "footer10": "Made with ❤️ by Noril Werlen & Domenico Valentino",
+
+    "sponsor1": "Sponsors and partners THANKS a thousand times!",
+    "sponsor2": "\nThe team 3990:Tech for Kids would like to thank all the people who helped to realize this beautiful project.",
+    "plat": "Platinium sponsors"
 }

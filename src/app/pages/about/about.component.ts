@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { trigger, transition, animate, keyframes, style, query, stagger } from '@angular/animations';
 import { TranslateService } from '@ngx-translate/core';
+import { HomeComponent } from '../home/home.component';
+
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
@@ -33,5 +35,6 @@ export class AboutComponent {
   ngOnInit() {
     window.scrollTo(0, 0);
   }
+  public imgSrc:string = "/assets/rightarrowangle.png";
 }
 

@@ -1,4 +1,3 @@
-<app-navbar></app-navbar>
 <div class="min-h-screen flex justify-center items-center bg-bg1 bg-fixed bg-no-repeat bg-cover bg-center">
     <h1 class=" bg-clip-text text-8xl"> <img src="https://i.ibb.co/SfVK559/logo-2.png" alt="logo-2" border="0" /></h1>
   </div>
@@ -7,22 +6,21 @@
     <h2 class="font-bold justify-center flex text-4xl">{{'homepage1'| translate}}</h2>
       <a class="font-bold flex justify-center text-4xl">{{'homepage2'| translate}}</a>
   </div>
-    
   
   <div class="flex justify-center bg-ima2 min-h-screen bg-center bg-no-repeat bg-cover bg-fixed">
     <div class="card bg-primary p-36 my-48 shadow-xl bg-opacity-75">
-      <div class="card-body">
-        <h2 class="card-title text-4xl">Tech for Kids is College Regina Assumpta’s multidisciplinary <br> project centered around robotics, science and technology.</h2>
-        <a class="text-xl whitespace-pre">{{'homepage3' | translate}}</a>
-        <a class="text-xl whitespace-pre">{{'homepage4' | translate}}</a>
-        <a class="text-xl whitespace-pre">{{'homepage5' | translate}}</a>
+      <div class="card-body items-center text-center">
+        <a class="card-title whitespace-pre text-center justify-center text-4xl">{{'homepage12'| translate}}</a>
+        <a class="text-xl text-center justify-center whitespace-pre">{{'homepage3' | translate}}</a>
+        <a class="text-xl text-center justify-center whitespace-pre">{{'homepage4' | translate}}</a>
+        <a class="text-xl text-center justify-center whitespace-pre">{{'homepage5' | translate}}</a>
         <div class="card-actions ">
-          <button routerLink="/about" routerLinkActive="" class="btn btn-secondary w-96 text-white justify-center shadow-lg mt-32 mx-72 hover:text-accent">{{'readmorebtn' | translate}}</button>
+          <button (mouseover)="imgSrc = '/assets/rightarrowangleaccent.png'" (mouseout)="imgSrc = '/assets/rightarrowangle.png'" routerLink="/about" routerLinkActive="" class="btn btn-secondary whitespace-pre w-96 text-white justify-center shadow-lg mt-32  hover:text-accent">{{'readmorebtn' | translate}} <img height="16" width="16" [src]="imgSrc"></button>
         </div>
       </div>
     </div>
     </div>
-
+    
   <div class="bg-primary min-h-screen bg-fixed bg-no-repeat bg-cover">
 
     <!--ANIME JS TO MAKE EVERY BANNER APPEAR ONE BY ONE-->
@@ -50,7 +48,7 @@
         <div class="card">
           <img routerLink="/season2015" routerLinkActive="" class="scale-50 hover:scale-75 transition duration-300 ease-in-out my-12 object-cover" src="https://www.team3990.com/wp-content/uploads/2017/08/game2017-1.png">
         </div>
-
+        
         <div class="card">
           <img routerLink="/season2014" routerLinkActive="" class="scale-50 hover:scale-75 transition duration-300 ease-in-out my-12 object-cover" src="https://www.team3990.com/wp-content/uploads/2017/08/game2014-1.png">
         </div>
@@ -62,8 +60,5 @@
         <div class="card">
           <img routerLink="/season2012" routerLinkActive="" class="scale-50 hover:scale-75 transition duration-300 ease-in-out my-12 object-cover" src="https://www.team3990.com/wp-content/uploads/2017/08/game2012.png">
         </div>
-
-    </div>
-<app-footer></app-footer>
-    
+    </div>    
  
