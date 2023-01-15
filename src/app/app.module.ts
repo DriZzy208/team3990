@@ -38,7 +38,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
+    BrowserAnimationsModule,TranslateModule,
+    FontAwesomeModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -46,7 +47,6 @@ export function HttpLoaderFactory(http: HttpClient) {
           deps: [HttpClient]
       }
     }),
-    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
