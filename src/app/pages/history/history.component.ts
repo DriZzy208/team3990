@@ -13,22 +13,4 @@ export class HistoryComponent {
     let langueactuel:string = this.translate.instant('language');
     return langueactuel;
   }
-  
-  seasons: any[] = [
-    {
-      "name": this.getlangue()
-    },
-    {
-      "name": "Mcleod  Mueller"
-    },
-    {
-      "name": "Day  Meyers"
-    },
-    {
-      "name": "Aguirre  Ellis"
-    },
-    {
-      "name": "Cook  Tyson"
-    }
-  ];
 }
