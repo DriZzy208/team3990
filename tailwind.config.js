@@ -19,7 +19,10 @@ module.exports = {
         'banner8': 'url("https://www.team3990.com/wp-content/uploads/2017/08/game2017-2.png")',
         'banner9': 'url("https://www.team3990.com/wp-content/uploads/2017/08/game2012.png")',
 
-      }
+      },
+      fontFamily: {
+        playfair: "'Playfair Display', serif",
+      },
     },
   },
   plugins: [require("daisyui")],

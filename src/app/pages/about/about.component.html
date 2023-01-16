@@ -1,7 +1,7 @@
-
+<div class=" font-playfair">
 <div class="p-12">
-    <h2 class="font-bold justify-center flex text-4xl">{{'aboutitle1'| translate}}</h2>
-    <a class="font-bold flex justify-center text-2xl">{{'aboutitle2'| translate}}</a>
+    <h2 class="font-bold justify-center  font-playfair flex text-4xl">{{'aboutitle1'| translate}}</h2>
+    <a class="font-bold flex justify-center  font-playfair text-2xl">{{'aboutitle2'| translate}}</a>
 </div>
 
 <div [@cardAnimation]="1">
@@ -9,17 +9,17 @@
         <div class="flex justify-center">
             <div class="card w-96 m-12 bg-white">
                 <div class="card-body items-center text-center">
-                    <h2 class="card-title font-bold text-2xl">{{'about1'| translate}}</h2>
-                    <p>{{'aboutmission'| translate}}</p>
+                    <h2 class="card-title font-bold  font-playfair text-2xl">{{'about1'| translate}}</h2>
+                    <p class=" font-playfair">{{'aboutmission'| translate}}</p>
                     <div class="card-actions">
                         <button routerLink="/missions" routerLinkActive=""
-                            class="btn btn-secondary w-48 text-white justify-center shadow-lg mt-36  hover:text-accent">{{'readmorebtn' | translate}}</button>
+                            class="btn btn-secondary w-48 text-white  font-playfair justify-center shadow-lg mt-36  hover:text-accent">{{'readmorebtn' | translate}}</button>
                     </div>
                 </div>
             </div>
 
             <div class="card w-96 m-12 bg-white">
-                <div class="card-body items-center text-center">
+                <div class="card-body  font-playfair items-center text-center">
                     <h2 class="card-title font-bold text-2xl">{{'about2'| translate}}</h2>
                     <p>{{'aboutgoals'| translate}}</p>
                     <div class="card-actions">
@@ -30,7 +30,7 @@
             </div>
 
             <div class="card w-96 m-12 bg-white">
-                <div class="card-body items-center text-center">
+                <div class="card-body  font-playfair items-center text-center">
                     <h2 class="card-title font-bold text-2xl">{{'about3'| translate}}</h2>
                     <p>{{'abouthistory'| translate}}</p>
                     <div class="card-actions">
@@ -116,3 +116,4 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
