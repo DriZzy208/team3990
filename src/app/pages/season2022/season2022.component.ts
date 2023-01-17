@@ -1,23 +1,29 @@
 import { Component } from '@angular/core';
-import EmployeesJson from 'src/assets/season2022.json';
-
-interface EMPLOYEE {
-  id: number;
-  name: string;
-  username: string;
-  email: string;
-  phone: string;
-  website: string;
-}
-
+import season2022json from 'src/assets/season2022.json';
+import { HttpClient } from '@angular/common/http';
+import { map } from 'rxjs/operators';
+import * as jsonpath from 'jsonpath';
+import { getLocaleDayNames } from '@angular/common';
 @Component({
   selector: 'app-season2022',
   templateUrl: './season2022.component.html',
   styleUrls: ['./season2022.component.css']
 })
 export class Season2022Component {
-  Employees: EMPLOYEE[] = EmployeesJson;
-  constructor(){
-    console.log(this.Employees);
-  }
+  constructor(private http: HttpClient) {
+    this.http.get('/assets/season2022.json').pipe(map(data=> jsonpath.query(data, "$.name"))).subscribe(propertyValue => {
+      this.setImage(propertyValue);
+  });
+  
+}
+image: any;
+
+setImage(path: any){
+  this.image = path;
+}
+
+getImage(path: any){
+  return path;
+}
+console.log(getImage(image));
 }
