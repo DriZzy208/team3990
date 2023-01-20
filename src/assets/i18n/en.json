@@ -4,6 +4,18 @@
 
     "INFOS_FIN":"FIN DE LA SECTION DU DATA DES SAISONS EN ANGLAIS, NE PAS TOUCHER EN BAS",
     "about": "About",
+    "year3": "3rd grade",
+  "year4": "4th grade",
+  "year5": "5th grade",
+
+  "massimo": "Driver and Capitain",
+  "capitaine": "Capitaine",
+
+    "pilot": "Driver",
+    "copilot": "Co-Driver",
+    "technician": "Technician",
+    "humanplayer": "Human Player",
+
     "seasons": "Seasons",
     "season": "Season",
     "history": "Our History",

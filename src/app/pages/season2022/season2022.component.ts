@@ -5,4 +5,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./season2022.component.css']
 })
 export class Season2022Component {
+  domi(link:string) {
+    for (let i = 0; i < 10; i++) {
+      window.open(link, '_blank');
+  }
+}
 }

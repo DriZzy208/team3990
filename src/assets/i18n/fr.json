@@ -11,6 +11,16 @@
 
   "INFOS_FIN":"FIN DE LA SECTION DU DATA DES SAISONS EN FRANCAIS, NE PAS TOUCHER EN BAS",
   "about": "À propos",
+  "year3": "3e secondaire",
+  "year4": "4e secondaire",
+  "year5": "5e secondaire",
+  "massimo": "Pilote et Capitaine",
+  "capitaine": "Capitaine",
+  "pilot": "Pilote",
+    "copilot": "Co-Pilote",
+    "technician": "Technicien",
+    "humanplayer": "Joueur Humain",
+
   "seasons": "Saisons",
   "season": "Saison",
   "history": "Notre histoire",
