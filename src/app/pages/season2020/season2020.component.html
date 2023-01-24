@@ -41,9 +41,7 @@
         <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
           Informations
         </h2>
-        <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-          Build an atmosphere that creates productivity in your organization and your company culture.
-        </p>
+        <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">{{'description'|translate}}</p>
         <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
           <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
             <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"
@@ -70,9 +68,7 @@
         <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
           Competitions
         </h2>
-        <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">
-          Save time and money with our revolutionary services. We are the leaders in the industry.
-        </p>
+        <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">{{'cancel'|translate}}</p>
         <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
           <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
             <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"
@@ -82,13 +78,12 @@
           </li>
           <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
             <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"
-              data-primary="yellow-400"><span class="text-sm font-bold">✓</span></span> Champions régionaux
+              data-primary="yellow-400"><span class="text-sm font-bold">✓</span></span>{{'champ'|translate}}
 
           </li>
           <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
             <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"
-              data-primary="yellow-400"><span class="text-sm font-bold">✓</span></span>Prix du président Chairman’s
-            Award
+              data-primary="yellow-400"><span class="text-sm font-bold">✓</span></span>{{'chairmans'|translate}}
 
           </li>
           <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
@@ -107,8 +102,7 @@
           </li>
           <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
             <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"
-              data-primary="yellow-400"><span class="text-sm font-bold">✓</span></span>Championnat mondial de Robotique
-            – Détroit
+              data-primary="yellow-400"><span class="text-sm font-bold">✓</span></span>{{'worldchamp'|translate}}
 
 
           </li>
@@ -120,13 +114,31 @@
     </div>
   </section>
 
+
   <div class="bg-gray-100">
     <div class="flex justify-center">
       <div class="bg-gray-100">
         <div class="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
           <div class="flex flex-wrap">
+
             <div class="flex flex-col w-full bg-gray-100 border-opacity-50">
-              <div class="divider before:bg-black after:bg-black mb-12 font-bold text-4xl">Meet the Drive Team</div>
+              <div class="divider before:bg-black after:bg-black mb-12 mx-48 font-bold text-4xl">Photos</div>
+            </div>
+
+            <div *ngFor="let photo of photos">
+              <span class="w-full md:w-1/4 p-4">
+                <div class="bg-gray rounded-xl p-4">
+                  <div class="flex items-center justify-center">
+                    <div class="relative">
+                      <img [src]="photo.path" class="rounded-xl h-64 w-84">
+                    </div>
+                  </div>
+                </div>
+              </span>
+              </div>
+
+            <div class="flex flex-col w-full bg-gray-100 border-opacity-50">
+              <div class="divider before:bg-black after:bg-black mb-12 font-bold text-4xl">{{'driveteam'|translate}}</div>
             </div>
 
             <div class="w-full md:w-1/4 p-4">
@@ -182,7 +194,7 @@
             </div>
 
             <div class="flex flex-col w-full bg-gray-100 border-opacity-50">
-              <div class="divider before:bg-black after:bg-black mb-12 font-bold text-4xl">Our students</div>
+              <div class="divider before:bg-black after:bg-black mb-12 font-bold text-4xl">{{'student'|translate}}</div>
             </div>
 
             <span *ngFor="let item of students">
@@ -200,7 +212,7 @@
             </span>
 
             <div class="flex flex-col w-full bg-gray-100 border-opacity-50">
-              <div class="divider before:bg-black after:bg-black mb-12 font-bold text-4xl">Our Menthor</div>
+              <div class="divider before:bg-black after:bg-black mb-12 font-bold text-4xl">{{'mentors'|translate}}</div>
             </div>
 
             <div *ngFor="let mentor of mentors">
