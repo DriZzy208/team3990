@@ -1,15 +1,21 @@
 {
-  "INFOS":"LA SECTION CI-DESSOUS EST POUR LE DATA DES SAISONS EN FRANCAIS",
-      "saison2020": "Recharge Infinie est le jeu de la saison 2020 de FIRST \nRobotics Competition. Les alliances doivent stocker de \nl’énergie dans le port d’alimentation afin de protéger la \ncitée FIRST. Les robots doivent lancer des cellules \nd’énergie dans les ports d’alimentation de leur couleur. \nPuis, ils doivent tourner le panneau de contrôle afin \nd’augmenter leur niveau. À la fin de la partie, les robots \ndoivent se rendre au point de rendez-vous pour gagner \nplus de point. Que la force soit avec vous!",
+  "INFOS": "LA SECTION CI-DESSOUS EST POUR LE DATA DES SAISONS EN FRANCAIS",
+  "saison2020": "Recharge Infinie est le jeu de la saison 2020 de FIRST \nRobotics Competition. Les alliances doivent stocker de \nl’énergie dans le port d’alimentation afin de protéger la \ncitée FIRST. Les robots doivent lancer des cellules \nd’énergie dans les ports d’alimentation de leur couleur. \nPuis, ils doivent tourner le panneau de contrôle afin \nd’augmenter leur niveau. À la fin de la partie, les robots \ndoivent se rendre au point de rendez-vous pour gagner \nplus de point. Que la force soit avec vous!",
+  "title2020": "FIRST - Défi Recharge Infinie",
+  "robot": "Le Robot",
+  "Poids": "Poids",
+  "mentor": "Mentor depuis ",
+  "mech": "Mechanical",
+  "elec": "Electrical",
+  "prog": "Programming",
+  "pneu": "Pneumatics",
+  "com": "Communications",
+  "top": "Coordonnateur général de robotique",
+  "top2": "Technicienne, Coordonnatrice",	
+  "nom": "Nom",
 
 
-
-
-
-
-
-
-  "INFOS_FIN":"FIN DE LA SECTION DU DATA DES SAISONS EN FRANCAIS, NE PAS TOUCHER EN BAS",
+  "INFOS_FIN": "FIN DE LA SECTION DU DATA DES SAISONS EN FRANCAIS, NE PAS TOUCHER EN BAS",
   "about": "À propos",
   "year3": "3e secondaire",
   "year4": "4e secondaire",
@@ -17,9 +23,9 @@
   "massimo": "Pilote et Capitaine",
   "capitaine": "Capitaine",
   "pilot": "Pilote",
-    "copilot": "Co-Pilote",
-    "technician": "Technicien",
-    "humanplayer": "Joueur Humain",
+  "copilot": "Co-Pilote",
+  "technician": "Technicien",
+  "humanplayer": "Joueur Humain",
 
   "seasons": "Saisons",
   "season": "Saison",

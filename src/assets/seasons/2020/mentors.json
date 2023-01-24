@@ -1,0 +1,116 @@
+[{
+    "name": "Alicia Belaiche",
+    "path": "assets/seasons/2020/alicia.jpg",
+    "xp": "2020",
+    "role": "com"
+},
+{
+    "name": "William  Camirand",
+    "path": "assets/seasons/2020/will.jpg",
+    "xp": "2012",
+    "role": "mech"
+},
+{
+    "name": "Sylvain Gauvreau",
+    "path": "assets/seasons/2020/grosg.jpg",
+    "xp": "2012",
+    "role": "top"
+},
+{
+    "name": "Julie Giroux",
+    "path": "assets/seasons/2020/julie.jpg",
+    "xp": "2019",
+    "role": "top2"
+},
+{
+    "name": "Dat Ha",
+    "path": "assets/seasons/2020/dat.jpg",
+    "xp": "2020",
+    "role": "prog"
+},
+{
+    "name": "Christian Haddad",
+    "path": "assets/seasons/2020/chris.jpg",
+    "xp": "2019",
+    "role": "mech"
+},
+{
+    "name": "Maryse Hébert",
+    "path": "assets/seasons/2020/mar.jpg",
+    "xp": "2020",
+    "role": "com"
+},
+{
+    "name": "Nardo Edward Jean Gilles",
+    "path": "assets/seasons/2020/nardo.jpg",
+    "xp": "2020",
+    "role": "mech"
+},
+{
+    "name": "Sebastien Lamer",
+    "path": "assets/seasons/2020/lamer.jpg",
+    "xp": "2012",
+    "role": "com"
+},
+{
+    "name": "Hugues Létourneau",
+    "path": "assets/seasons/2020/hug.jpg",
+    "xp": "2014",
+    "role": "prog"
+},
+{
+    "name": "Jean Létourneau",
+    "path": "assets/seasons/2020/jean.jpg",
+    "xp": "2013",
+    "role": "mech"
+},
+{
+    "name": "Éril Léveillé-Kunst",
+    "path": "assets/seasons/2020/kunst.jpg",
+    "xp": "2015",
+    "role": "mech"
+},
+{
+    "name": "David Ly",
+    "path": "assets/seasons/2020/david.jpg",
+    "xp": "2020",
+    "role": "prog"
+},
+{
+    "name": "Anas Merbouh",
+    "path": "assets/seasons/2020/anas.jpg",
+    "xp": "2017",
+    "role": "prog"
+},
+{
+    "name": "Maxime Pepin",
+    "path": "assets/seasons/2020/blank.jpg",
+    "xp": "2019",
+    "role": "mech"
+},
+{
+    "name": "Samuel Proulx",
+    "path": "assets/seasons/2020/sam.jpg",
+    "xp": "2019",
+    "role": "mech"
+},
+{
+    "name": "",
+    "path": "assets/seasons/2020/chat.png",
+    "xp": "",
+    "role": "",
+    "color": "text-gray-100"	
+},
+{
+    "name": "Irene Maria Ruse",
+    "path": "assets/seasons/2020/ir.jpg",
+    "xp": "2020",
+    "role": "com"
+},
+{
+    "name": "Kevin Schank",
+    "path": "assets/seasons/2020/kev.png",
+    "xp": "2016",
+    "role": "mech"
+}
+]
