@@ -4,7 +4,7 @@
     "year3": "Secondary 3",
     "year4": "Secondary 4",
     "year5": "Secondary 5",
-    "mentor": "Mentor since",
+    "mentor": "Mentor since ",
     "massimo": "Driver and Capitain",
     "capitaine": "Capitaine",
     "title2020": "FIRST - Infinite Recharge Challenge",
@@ -19,7 +19,7 @@
     "copilot": "Co-Driver",
     "technician": "Technician",
     "humanplayer": "Human Player",
-    "top": "Coordonnateur général de la robotique",
+    "top": "General Coordinator of Robotics",
     "nom": "Name",
     "description": "A robot as compact as competent!",
     "victory": "Triple winner of the FRC 2020 competitions",
@@ -30,7 +30,8 @@
     "driveteam": "Meet the Drive Team",
     "student": "Our students",
     "mentors": "Our mentors",
-    
+    "top2": "Technician, Coordinator",	
+
     "seasons": "Seasons",
     "season": "Season",
     "history": "Our History",
