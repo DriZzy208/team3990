@@ -17,6 +17,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './shared/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { Season2019Component } from './pages/season2019/season2019.component';
+import { Season2018Component } from './pages/season2018/season2018.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -33,6 +35,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SponsorComponent,
     ContactComponent,
     FooterComponent,
+    Season2019Component,
+    Season2018Component,
   ],
   imports: [
     BrowserModule,
